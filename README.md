@@ -126,7 +126,7 @@ firebase deploy --only hosting
 ```
 
 Seu site estará disponível no endereço:
-👉 **https://sistemaspex-ae1b9.web.app**
+👉 **https://sistemaspex.web.app**
 
 ---
 
@@ -145,7 +145,7 @@ Abra `src/data/services.ts`. Basta incluir ou modificar objetos na lista `SERVIC
 Abra `src/data/projects.ts` e adicione um novo objeto na lista `PROJECTS_DATA` com:
 - Nome, categoria e URL real
 - Problema enfrentado pelo cliente
-- Solução entregue pela Pex Sistemas
+- Solução entregue pela Sistemas Pex
 
 ---
 
