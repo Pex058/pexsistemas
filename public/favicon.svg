@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="22" fill="#0B1220"/>
+  <rect x="2" y="2" width="96" height="96" rx="20" stroke="#10B981" stroke-width="3" stroke-opacity="0.3"/>
+  <!-- Letra S geométrica moderna estilizada -->
+  <path d="M68 34C68 28.4772 63.5228 24 58 24H38C30.268 24 24 30.268 24 38C24 45.732 30.268 52 38 52H62C69.732 52 76 58.268 76 66C76 73.732 69.732 80 62 80H42C36.4772 80 32 75.5228 32 70" stroke="#10B981" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="74" cy="26" r="5" fill="#34D399"/>
+</svg>

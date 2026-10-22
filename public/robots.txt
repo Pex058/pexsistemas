@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sistemaspex.web.app/sitemap.xml
