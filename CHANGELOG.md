@@ -5,6 +5,13 @@ Todas as alterações notáveis deste projeto serão documentadas neste arquivo.
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
 e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
+## [1.1.1] - 2026-10-24
+
+### Alterado
+- Links do portfólio atualizados com parâmetros de rastreamento UTM:
+  - **MeExplica**: `https://meexplica.web.app/?utm_source=sistemaspex&src=sistemaspex&utm_medium=lp-sistemaspex`
+  - **Campomaq**: `https://campomaq.web.app/?src=sistemaspex`
+
 ## [1.1.0] - 2026-10-24
 
 ### Adicionado
