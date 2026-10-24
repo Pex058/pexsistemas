@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { MessageCircle, ExternalLink, ShieldCheck, Heart } from 'lucide-react';
 import { SITE_CONFIG } from '../config/site';
 import { createWhatsAppUrl } from '../utils/whatsapp';
@@ -115,10 +116,14 @@ export const Footer: React.FC = () => {
           <p>
             &copy; {currentYear} {SITE_CONFIG.name}. Todos os direitos reservados.
           </p>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1 flex-wrap justify-center">
             <span>Feito com foco em soluções práticas</span>
             <Heart className="w-3.5 h-3.5 text-emerald-500 mx-1 inline" />
             <span>para empresas reais.</span>
+            <span className="mx-2 text-slate-700">·</span>
+            <Link to="/admin" className="text-slate-600 hover:text-slate-400 transition-colors">
+              Painel Admin
+            </Link>
           </div>
         </div>
       </div>

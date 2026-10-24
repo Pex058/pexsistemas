@@ -5,6 +5,26 @@ Todas as alterações notáveis deste projeto serão documentadas neste arquivo.
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
 e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
+## [1.1.0] - 2026-10-24
+
+### Adicionado
+- **Painel Admin completo** (`/admin`) com autenticação Firebase Auth e rota protegida.
+- **Página de Login** (`/admin/login`) com design dark theme (emerald).
+- **Aba Métricas & Acessos**: exibe visitas únicas, cliques, CTR, gráfico diário e tabela de leads com busca e download CSV.
+- **Aba Gerador de Links & Campanhas**: UTM Builder com presets de canais, QR Code, cópia rápida e persistência local de campanhas salvas.
+- **Aba Pixel & Rastreamento**: configuração de Facebook Pixel ID e ativação/desativação via Firestore.
+- **Anti-bot tracking**: rastreamento ativado após 1,8 s de engajamento humano real; ignora bots, crawlers e IPs de admin.
+- **Motor de métricas centralizado** (`utils/metrics.ts`) com deduplicação por sessão e timezone `America/Sao_Paulo`.
+- **React Router DOM** substituindo o layout de página única (`App.tsx` → `AppRoutes.tsx`).
+- **Link discreto "Painel Admin"** no Footer para acesso ao login.
+- **19 testes unitários** (`test/metrics.test.js`) cobrindo CTR, deduplicação, agrupamento por data, detecção de dispositivo, UTM e formatação de datas.
+- Chaves de sessão com prefixo `pex_` (`pex_is_admin`, `pex_visit_logged`, `pex_sid`, `pex_saved_campaigns`).
+
+### Dependências adicionadas
+- `firebase ^13.1.0`
+- `react-router-dom ^7.18.4`
+- `qrcode ^1.5.4` + `@types/qrcode ^1.5.6`
+
 ## [1.0.1] - 2026-10-22
 
 ### Alterado
